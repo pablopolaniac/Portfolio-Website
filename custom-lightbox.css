@@ -1,0 +1,50 @@
+.goverlay,
+.glightbox-mobile .goverlay {
+  background-color: #fff;
+}
+
+.gslide-image {
+  margin: 12rem;
+}
+
+.glightbox-clean .gclose,
+.glightbox-clean .gnext,
+.glightbox-clean .gprev {
+  background-color: #fff;
+}
+
+.glightbox-clean .gclose:hover,
+.glightbox-clean .gnext:hover,
+.glightbox-clean .gprev:hover {
+  background-color: #fff;
+}
+
+.glightbox-clean .gclose path,
+.glightbox-clean .gnext path,
+.glightbox-clean .gprev path {
+  fill: #000 !important;
+}
+
+@media screen and (max-width: 980px) {
+  .gslide-image {
+    margin: 8rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .gslide-image {
+    margin: 6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gslide-image {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .gslide-image {
+    margin: 0;
+  }
+}
