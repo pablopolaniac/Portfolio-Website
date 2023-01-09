@@ -59,8 +59,6 @@ img {
   width: 100%;
   filter: none;
   -webkit-filter: none;
-  -webkit-filter-transform: scale(1.1);
-  
 }
 
 img:hover {
@@ -71,9 +69,7 @@ img:hover {
   filter: gray;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
-  /* Google Chrome & Safari 6+ */
-  -webkit-filter-transition: all .5s ease-in-out;
-  
+  /* Google Chrome & Safari 6+ */ 
 }
 
 .row {
