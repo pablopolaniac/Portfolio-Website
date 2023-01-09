@@ -16,12 +16,18 @@ body {
   margin-bottom: 50px;
 }
 
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar {
   background: #ffffff;
   color: #9c9c9c;
   font-weight: 400;
   font-size: 14px;
   position: relative;
+  display: flex;
 }
 
 .navbar ul {
@@ -35,7 +41,8 @@ body {
   display: flex;
 }
 
-.navbar li {
+.navbar li,
+.logo a {
   margin-top: 3em;
   margin-left: 3em;
   margin-bottom: 1em;
@@ -75,14 +82,9 @@ img {
 }
 
 .navbar .hamburger {
-  position: absolute;
-  top: 0;
-  right: 0;
   border: unset;
   background: unset;
   cursor: pointer;
-  margin-top: 2.5em;
-  margin-right: 2.5em;
   display: none;
 }
 
@@ -164,10 +166,12 @@ footer li a:hover {
     background: white;
     z-index: 10;
   }
- 
 }
 
 @media screen and (max-width: 800px) {
+  .navbar {
+    display: block;
+  }
   .navbar a {
     padding: 0;
     color: inherit;
@@ -178,9 +182,10 @@ footer li a:hover {
     padding: 0;
     display: inline-block;
   }
-   /* this part is new */
-   .nav-toggle a:hover, .nav-toggle span:hover {
-    color:white;
+  /* this part is new */
+  .nav-toggle a:hover,
+  .nav-toggle span:hover {
+    color: white;
   }
   /* new part ends here */
 
@@ -251,7 +256,6 @@ footer li a:hover {
     display: block;
     text-align: center;
     padding: 0px;
-    margin-block: 10px;
   }
 
   .navbar .nav-toggle a,
@@ -292,7 +296,5 @@ footer li a:hover {
 
   .navbar.open .hamburger .icon-close {
     display: block;
-    margin-top: -40px;
   }
 }
-
