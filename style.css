@@ -164,11 +164,7 @@ footer li a:hover {
     background: white;
     z-index: 10;
   }
-  /* this part is new */
-  .navbar a:hover, .navbar span:hover {
-    color:white;
-  }
-  /* new part ends here */
+ 
 }
 
 @media screen and (max-width: 800px) {
@@ -182,6 +178,11 @@ footer li a:hover {
     padding: 0;
     display: inline-block;
   }
+   /* this part is new */
+   .navbar a:hover, .navbar span:hover {
+    color:white;
+  }
+  /* new part ends here */
 
   .navbar a:hover {
     color: #fff;
