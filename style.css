@@ -268,14 +268,14 @@ footer li a:hover {
 
   .navbar.open .submenu {
     display: flex;
-    transition: 1200ms;
+    transition: 2100ms;
   }
   
 
   .navbar.open .nav-toggle {
     padding-block: 20px;
     max-height: 1000px;
-    transition: 1200ms;
+    transition: 2100ms;
     
   }
 
