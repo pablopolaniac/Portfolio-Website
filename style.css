@@ -230,7 +230,7 @@ footer li a:hover {
   .navbar .submenu {
     max-height: 0px;
     overflow-y: hidden;
-    transition: 900ms ease-in-out;
+    transition: 500ms;
     background-color: #1e1e1e;
 
     position: relative;
@@ -257,7 +257,9 @@ footer li a:hover {
 
   .navbar.open .submenu {
     display: flex;
+    transition: 900ms ease-in-out;
   }
+  
 
   .navbar.open .nav-toggle {
     padding-block: 20px;
