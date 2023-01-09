@@ -13,7 +13,7 @@ body {
 
 .navbar a.home {
   background: white;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .logo {
@@ -28,6 +28,7 @@ body {
   font-size: 14px;
   position: relative;
   display: flex;
+  margin-bottom: -10px; 
 }
 
 .navbar ul {
@@ -35,6 +36,8 @@ body {
   list-style: none;
   padding: 0px;
   display: flex;
+ 
+  
 }
 
 .navbar .nav-toggle {
@@ -49,12 +52,15 @@ body {
   padding: 0;
   height: fit-content;
   display: inline-block;
+  margin-top: 46px;
 }
 .navbar a {
   padding: 0;
   color: inherit;
   text-decoration: none;
   display: inline-block;
+  
+  
 }
 
 .navbar a:hover,
@@ -84,7 +90,7 @@ img:hover {
   display: flex;
   padding: 25px;
   flex-wrap: wrap;
-  margin-top: -45px;
+  margin-top: 0px;
   margin-right: 30px;
 }
 
@@ -185,6 +191,7 @@ footer li a:hover {
     background: white;
     z-index: 10;
   }
+  
 }
 
 @media screen and (max-width: 800px) {
@@ -207,6 +214,16 @@ footer li a:hover {
     color: white;
   }
   /* new part ends here */
+
+  .navbar .logo .hamburger
+  {
+    margin-bottom: 40px;
+  }
+
+  .row {
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
 
   .navbar a:hover {
     color: #fff;
@@ -271,6 +288,7 @@ footer li a:hover {
     padding-block: 20px;
     max-height: 1000px;
     transition: 1200ms;
+    
   }
 
   .navbar.open a,
@@ -278,6 +296,7 @@ footer li a:hover {
     display: block;
     text-align: center;
     padding: 0px;
+    
   }
 
   .navbar .nav-toggle a,
@@ -287,6 +306,7 @@ footer li a:hover {
     padding: 0px;
     margin-block: 10px;
     margin-left: 1px;
+    
   }
 
   .navbar.open li .home {
@@ -305,13 +325,18 @@ footer li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
   }
 
   .navbar .hamburger {
     display: block;
     padding-top: 0px;
     margin-right: 2em;
+    margin-top: 32px;
+    
   }
+
+  
 
   .navbar.open .hamburger .icon-open {
     display: none;
@@ -319,5 +344,6 @@ footer li a:hover {
 
   .navbar.open .hamburger .icon-close {
     display: block;
+    
   }
 }
