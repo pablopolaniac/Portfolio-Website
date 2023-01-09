@@ -13,7 +13,7 @@ body {
 
 .navbar a.home {
   background: white;
-/*  margin-bottom: 50px;*/
+  margin-bottom: 50px;
 }
 
 .navbar {
@@ -42,7 +42,6 @@ body {
   padding: 0;
   height: fit-content;
   display: inline-block;
-     list-style: none; 
 }
 .navbar a {
   padding: 0;
@@ -53,7 +52,7 @@ body {
 
 .navbar a:hover,
 .navbar span:hover {
-/*  color: black;*/
+  color: black;
 }
 
 img {
@@ -250,10 +249,10 @@ footer li a:hover {
 
   .navbar.open a,
   .navbar.open span {
-    /*display: block;
+    display: block;
     text-align: center;
     padding: 0px;
-    margin-block: 10px;*/
+    margin-block: 10px;
   }
 
   .navbar .nav-toggle a,
@@ -294,6 +293,7 @@ footer li a:hover {
 
   .navbar.open .hamburger .icon-close {
     display: block;
-/*    margin-top: -40px;*/
+    margin-top: -40px;
   }
 }
+
