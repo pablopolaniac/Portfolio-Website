@@ -179,7 +179,7 @@ footer li a:hover {
     display: inline-block;
   }
    /* this part is new */
-   .navbar a:hover, .navbar span:hover {
+   .nav-toggle a:hover, .nav-toggle span:hover {
     color:white;
   }
   /* new part ends here */
