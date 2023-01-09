@@ -164,13 +164,11 @@ footer li a:hover {
     background: white;
     z-index: 10;
   }
-  /* 
-  ul.submenu {
-    margin: -1rem 0;
+  /* this part is new */
+  .navbar a:hover, .navbar span:hover {
+    color:white;
   }
-  ul.submenu li {
-    margin: -1.5rem 0;
-  } */
+  /* new part ends here */
 }
 
 @media screen and (max-width: 800px) {
