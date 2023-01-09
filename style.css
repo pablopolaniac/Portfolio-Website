@@ -262,6 +262,7 @@ footer li a:hover {
   .navbar.open .nav-toggle {
     padding-block: 20px;
     max-height: 1000px;
+    transition: 1200ms;
   }
 
   .navbar.open a,
@@ -287,7 +288,7 @@ footer li a:hover {
   }
 
   .navbar .nav-toggle {
-    transition: 1200ms ease-in-out;
+    transition: 800ms;
     background-color: black;
     max-height: 0px;
     overflow: hidden;
