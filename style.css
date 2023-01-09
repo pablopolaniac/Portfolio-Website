@@ -43,7 +43,7 @@ body {
 
 .navbar li,
 .logo a {
-  margin-top: 3em;
+  margin-top: 4.5em;
   margin-left: 3em;
   margin-bottom: 1em;
   padding: 0;
@@ -80,18 +80,24 @@ img:hover {
 }
 
 .row {
+
   display: flex;
   padding: 25px;
   flex-wrap: wrap;
+  margin-top: -45px;
+  margin-right: 30px;
 }
 
 .column {
   flex: 25%;
   padding: 18px;
+  margin: 0px;
+  margin-right: -25px;
 }
 
 .column img {
-  margin-top: 32px;
+  margin: 2px;
+  
 }
 
 .navbar .hamburger {
