@@ -203,10 +203,7 @@ footer li a:hover {
   }
   /* new part ends here */
 
-  .navbar .logo .hamburger
-  {
-    margin-bottom: 40px;
-  }
+  
 
   .row {
     margin-top: 100px;
@@ -285,6 +282,7 @@ footer li a:hover {
     text-align: center;
     padding: 0px;
     
+    
   }
 
   .navbar .nav-toggle a,
@@ -320,8 +318,14 @@ footer li a:hover {
     display: block;
     padding-top: 0px;
     margin-right: 2em;
-    margin-top: 32px;
     
+    
+  }
+
+  .logo {
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom:40px;
   }
 
   
