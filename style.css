@@ -69,7 +69,11 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 100%; 
+}
+
+.column a img:hover {
+  filter: brightness(50%); 
 }
 
 
