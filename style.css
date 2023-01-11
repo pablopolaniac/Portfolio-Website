@@ -53,6 +53,7 @@ body {
   height: fit-content;
   display: inline-block;
   margin-top: 46px;
+  cursor: pointer;
 }
 .navbar a {
   padding: 0;
