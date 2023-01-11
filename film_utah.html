@@ -236,9 +236,13 @@
         <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
         <script src="./app.js"></script>
         <script>
-          const lightbox = GLightbox({
-            touchNavigation: true,
-          });
+          if (screen.width > 480) {
+            const lightbox = GLightbox({});
+          } else if (screen.width < 480) {
+            document.querySelectorAll(".glightbox").forEach((a) => {
+              a.style.pointerEvents = "none";
+            });
+          }
         </script>
       </main>
     </body>
